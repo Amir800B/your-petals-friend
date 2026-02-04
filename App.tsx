@@ -825,7 +825,7 @@ const App: React.FC = () => {
       <footer className="bg-slate-900 text-white pt-24 pb-12 mt-20 relative overflow-hidden border-t border-slate-800">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-20 relative z-10">
           <div className="col-span-1 lg:col-span-2">
-            <div className="mb-8"><Logo size="h-16 w-16" /></div>
+            <div className="mb-8 h-16 w-16"><Logo onClick={() => setActivePage('home')} /></div>
             <p className="text-slate-400 max-w-sm text-lg leading-relaxed">Your professional partner for premium floral experiences in Jakarta. Designing moments that last forever.</p>
           </div>
           <div>
