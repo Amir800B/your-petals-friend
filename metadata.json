@@ -1,0 +1,7 @@
+{
+  "name": "Your Petals Friend - Boutique Florale Moderne",
+  "description": "A high-end modern flower shop application featuring multi-language support, custom order management, and an AI-powered bouquet recommendation assistant.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
